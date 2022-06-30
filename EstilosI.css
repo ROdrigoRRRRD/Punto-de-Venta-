@@ -1,0 +1,145 @@
+@font-face {
+    font-family: IBM;
+    src: url(IBMPlexSansThai-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(3695752.jpg);
+    background-size: cover;
+    background-position: auto
+}
+
+#content {
+    font-family: IBM;
+    background: #283666bd;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    border-radius: 40px;
+    text-align: center;
+    padding: auto;
+    margin-top: 100px;
+    border: 4px solid black;
+    font-size: 16px;
+    float: center;
+}
+
+#regresar {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30px;
+    margin-right: 0px;
+    opacity: 100%;
+}
+
+#new {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+#name {
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
+    height: 30px;
+    margin: 0px;
+    border: 2px solid #000000;
+    font-family: IBM;
+    background: #d4d4d4;
+}
+
+#name:hover {
+    border: 2px solid #0057A3;
+}
+
+#name:focus {
+    background: #b1ff99;
+    border: 2px solid black;
+    color: #000000;
+}
+
+#password {
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
+    height: 30px;
+    margin: 0px;
+    border: 2px solid #000000;
+    font-family: IBM;
+    background: #d4d4d4;
+}
+
+#password:hover {
+    border: 2px solid #0057A3;
+}
+
+#password:focus {
+    background: #b1ff99;
+    border: 2px solid black;
+    color: #000000;
+}
+
+#iniciar {
+    background: #027CAA;
+    font-family: IBM;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 40%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+#iniciar:hover {
+    background: #1CC21C;
+    color: white;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+#iniciar.active {
+    background: #15DE15;
+}
+
+#send {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    float: center;
+    width: 100%;
+    text-align: center;
+    background: #09144100;
+    margin-bottom: 10px;
+    background-color: #000000;
+}
+
+#term {
+    text-decoration: none;
+    border: 2px;
+    color: #34edc5;
+    margin-right: 25px;
+}
+
+#no {
+    text-decoration: none;
+    border: 2px;
+    color: #34edc5;
+    margin-left: 25px;
+}
+
+#error {
+    color: rgb(208, 0, 0);
+    width: 70%;
+    margin-left: 60px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}

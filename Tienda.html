@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tienda</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='EstiloH.css'>
+    <script src='main.js'></script>
+    <link rel="icon" href="computadora-portatil.png">
+</head>
+
+<body>
+    <header>
+        <a href="Dash.html" id="bregresar"><img src="flecha-izquierda.png" id="regresar"></a>
+        <h1>Tienda</h1>
+    </header>
+    <article id="productos">
+        <section>
+            <h3>Productos</h3>
+            <ul id="listOne">
+                <li>Aceite .... 1321124161</li>
+                <li>Café ...... 1321124162</li>
+                <li>Mole ...... 1321124163</li>
+                <li>Harina .... 1321124164</li>
+                <li>Cajeta .... 1321124165</li>
+                <li>Miel ...... 1321124166</li>
+                <li>Leche ..... 1321124167</li>
+                <li>Papas ..... 1321124168</li>
+            </ul>
+        </section>
+    </article>
+    <article id="pedido">
+        <section>
+            <h3>Seleccione sus Productos</h3>
+            <h4>Escriba el codigo del producto</h4>
+            <input type="number" id="produc" min="0">
+            <button id="tPro" onclick="save()"><img src="flecha-correcta.png" id="flecha"></button>
+            <div id="error">
+
+            </div>
+        </section>
+    </article>
+    <article id="activos">
+        <section>
+            <h3>Lista de Productos</h3>
+            <div id="lista">
+
+            </div>
+            <button id="end" onclick="sumas()">Terminar Compra</button>
+            <h3>El precio a Pagar es:</h3>
+            <div id="total">
+
+            </div>
+        </section>
+    </article>
+    <script src="JSTienda.js"></script>
+</body>
+
+</html>

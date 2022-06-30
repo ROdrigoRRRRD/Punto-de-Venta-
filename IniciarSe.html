@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='EstilosI.css'>
+    <link rel="icon" href="cerrar-sesion.png">
+</head>
+
+<body>
+    <section id="content" class="container-fluid2">
+        <article>
+            <form action="">
+                <a href="Dash.html" id="regresar"><img src="flecha-izquierda.png" id="regresar"></a> <br>
+                <h1 id="new">Iniciar Sesión</h1><br>
+                <label for="name">Nombre</label> <br>
+                <input type="text" id="name"><br>
+                <label for="password">Contraseña</label> <br>
+                <input type="password" id="password"><br>
+                <button id="iniciar" onclick="return enviarForm();">Continuar</button>
+            </form>
+            <div id="error">
+
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <a href="terminos.html" id="term">Terminos y Condiciones</a>
+        <a href="Registrarse.html" id="no">¿No tienes una Cuenta?</a>
+    </footer>
+    <script src="JSIniciarSesion.js"></script>
+</body>
+
+</html>

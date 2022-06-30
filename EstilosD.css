@@ -1,0 +1,155 @@
+@font-face {
+    font-family: IBM;
+    src: url(IBMPlexSansThai-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(FondoDash.jpg);
+    background-size: cover;
+    background-position: auto;
+}
+
+header {
+    background: #E38638;
+    height: 80px;
+    border-bottom: 3px solid black;
+    padding: none;
+    margin: 0;
+    padding: 0;
+    font-size: auto;
+}
+
+#bHome {
+    background: none;
+    border: none;
+    padding-bottom: none;
+    display: inline-block;
+}
+
+#home {
+    width: 30px;
+    position: left;
+    background-color: none;
+    padding-left: 50px;
+    padding-bottom: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: none;
+    padding-top: 10px;
+    padding-left: 25%;
+    padding: auto;
+    font-family: IBM;
+    margin: auto;
+    display: inline-block;
+    text-shadow: 3px 3px 4px #1f0e01f6;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#one {
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-family: IBM;
+    text-align: center;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+#one:hover {
+    border: 2px solid #ffffff;
+    background-color: #0153ae;
+}
+
+#one:focus {
+    background: #99D0FF;
+    border: 2px;
+}
+
+#two {
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-family: IBM;
+    text-align: center;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    margin-right: 250px;
+    margin-bottom: 80px;
+}
+
+#two:hover {
+    border: 2px solid #ffffff;
+    background-color: #0153ae;
+}
+
+#two:focus {
+    background: #99D0FF;
+    border: 2px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    float: center;
+    width: 100%;
+    text-align: center;
+    background: #09144100;
+}
+
+#ventasA {
+    background-color: #4aff7d85;
+    display: inline-block;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: IBM;
+    margin-top: 30px;
+    float: right;
+    margin-right: 280px;
+    border: 2px solid black;
+}
+
+#ventasI {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#gastosA {
+    background-color: #4afffc85;
+    display: inline-block;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: IBM;
+    margin-top: 30px;
+    float: left;
+    margin-left: 280px;
+    border: 2px solid black;
+}
+
+#gastosI {
+    margin-bottom: 10px;
+    font-size: 25px;
+}

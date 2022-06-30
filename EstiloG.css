@@ -1,0 +1,92 @@
+@font-face {
+    font-family: IBM;
+    src: url(IBMPlexSansThai-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(FondoGastos.jpg);
+    background-size: cover;
+    background-position: auto;
+}
+
+header {
+    background: #6d6191;
+    height: 80px;
+    border-bottom: 3px solid black;
+    padding: none;
+    margin: 0;
+    padding: 0;
+    font-size: auto;
+}
+
+#bregresar {
+    background: none;
+    border: none;
+    padding-bottom: none;
+    display: inline-block;
+}
+
+#regresar {
+    width: 30px;
+    position: left;
+    background-color: none;
+    padding-left: 20px;
+    padding-bottom: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 43%;
+    padding: auto;
+    font-family: IBM;
+    margin: auto;
+    display: inline-block;
+    text-shadow: 3px 3px 4px #1f0e01f6;
+    font-size: 40px;
+}
+
+#listGastos {
+    background: #aa9bc0cc;
+    display: inline-block;
+    font-family: IBM;
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 500px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#sendG {
+    font-family: IBM;
+    margin-left: 150px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(122, 235, 122);
+    font-size: 15px;
+    margin-top: 20px;
+    box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.6);
+}
+
+#sendG:hover {
+    background: rgb(109, 234, 245);
+    font-size: 20px;
+    width: 105px;
+}
+
+#pagado {
+    text-align: center;
+    color: rgb(80, 0, 118);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
